@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:weightSum="1">
+        android:layout_width="200px"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+
+        android:layout_height="200px" android:weightSum="1">
     <FrameLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="100px"
+            android:layout_height="100px"
+
+            >
         <SurfaceView
                 android:id="@+id/cpPreview"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="1720dp"
+                android:layout_height="1080dp"
                 android:layout_gravity="center" android:onClick="takePicture" android:clickable="false">
 
         </SurfaceView>
